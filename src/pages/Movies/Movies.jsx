@@ -32,7 +32,7 @@ const Movies = () => {
       <form>
         <label>
           <input className={s.input} name="movieName" type="text" onSubmit={handleSubmit} />
-          <button className={s.btn} type="submit">Finde</button>
+          <button className={s.btn} type="submit">Find</button>
         </label>
       </form>
       <ul>
