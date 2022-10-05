@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/936.cd44049b.chunk.css","mappings":"AAAA,mBACI,gBACJ,CACA,kBACI,UAAY,CACZ,oBACJ,CACA,wBACI,aACJ","sources":["pages/Home/Home.module.css"],"sourcesContent":[".title {\n    margin-left: 32px;\n}\n.item {\n    color: black;\n    text-decoration: none;\n}\n.item:hover {\n    color: rgb(177, 94, 164);\n}"],"names":[],"sourceRoot":""}
