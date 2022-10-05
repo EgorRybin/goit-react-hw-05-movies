@@ -1,0 +1,37 @@
+
+.img {
+    padding: 16px;
+    
+}
+.back {
+    display: block;
+    width: 32px;
+    background-color: rgb(202, 153, 153);
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin: 16px;
+    text-decoration: none;
+    transition: 250ms;
+}
+.back:hover {
+    background-color: rgb(202, 122, 122);
+}
+.text {
+margin-left: 16px;
+}
+
+.link {
+    display: inline-block;
+    text-decoration: none;
+    margin: 16px;
+    /* width: 32px; */
+        background-color: rgb(202, 153, 153);
+        padding: 4px 8px;
+        border-radius: 4px;
+        margin: 16px;
+        text-decoration: none;
+        transition: 250ms;
+    }
+.link:hover {
+    background-color: rgb(202, 122, 122);
+}

@@ -1,0 +1,28 @@
+.input {
+    height: 32px;
+    width: 300px;
+    margin: 16px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btn {
+    background-color: rgb(202, 153, 153);
+    padding: 4px 8px;
+    border: none;
+    border-radius: 4px;
+    margin: 16px;
+    text-decoration: none;
+    transition: 250ms;
+}
+.btn:hover {
+    background-color: rgb(202, 122, 122);
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: rgb(177, 94, 164);
+}
