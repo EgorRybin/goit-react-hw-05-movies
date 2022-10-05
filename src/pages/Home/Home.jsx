@@ -16,7 +16,7 @@ const Home = () => {
       }
     };
     fetchMovies();
-  }, []);
+  }, [state.length]);
 
   return (
     <>

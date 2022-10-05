@@ -13,7 +13,7 @@ const Cast = () => {
       setCast(data.data.cast);
     };
     fetchMovies();
-  }, []);
+  }, [moviesId]);
   if (!cast) {
     return;
   }

@@ -13,7 +13,7 @@ const Reviews = () => {
       setReviews(data.data.results);
     };
     fetchMovies();
-  }, []);
+  }, [moviesId]);
 
   if (!reviews) {
     return;
