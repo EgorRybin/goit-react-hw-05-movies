@@ -11,12 +11,10 @@ const Home = () => {
   useEffect(() => {
     const fetchMovies = async () => {
       const data = await getTrendMovies();
-      if (!state.length > 0) {
         setState(data.data.results);
-      }
     };
     fetchMovies();
-  }, [state.length]);
+  }, []);
 
   return (
     <>
