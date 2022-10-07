@@ -34,8 +34,8 @@ const MoviesDetails = () => {
       <h3>Additional information</h3>
       </div>
 
-      <Link to="cast" className={s.link}>Cast</Link>
-      <Link to="reviews" className={s.link}>Reviews</Link>
+      <Link to="cast" className={s.link} state={{from: location.state.from}}>Cast</Link>
+      <Link to="reviews" className={s.link} state={{from: location.state.from}}>Reviews</Link>
       <Suspense>
         <Outlet />
       </Suspense>

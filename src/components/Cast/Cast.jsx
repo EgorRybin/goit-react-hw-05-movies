@@ -26,7 +26,7 @@ const Cast = () => {
           <img src={`${actorPoster}${profile_path}`} alt="" width="100"></img>
           <p>name: {name}</p>
           <p>character: {character}</p>
-        </li>
+        </li>   
       ))}
     </>
   );
